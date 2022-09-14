@@ -22,13 +22,13 @@ body {
 }
 
 .balance {
-  background-color: hsl(10deg, 79%, 65%);
+  background-color: hsla(10deg, 82%, 63%, 0.945);
   height: 100px;
   border-radius: 16px;
   padding: 24px 20px;
   display: flex;
   justify-content: space-between;
-  color: black;
+  color: hsl(0deg, 0%, 100%);
   margin-bottom: 16px;
 }
 .balance__title {
@@ -60,7 +60,7 @@ body {
 }
 
 .chart {
-  background-color: hsl(33deg, 100%, 98%);
+  background-color: hsl(0deg, 0%, 100%);
   color: black;
   border-radius: 16px;
   height: 426px;
@@ -79,7 +79,7 @@ body {
   margin-bottom: 30px;
 }
 .chart__bar {
-  background-color: hsl(10deg, 79%, 65%);
+  background-color: hsla(10deg, 82%, 63%, 0.945);
   width: 32px;
   height: 200px;
   border-radius: 4px;
@@ -87,7 +87,7 @@ body {
 }
 .chart__bar-label {
   background-color: hsl(25deg, 47%, 15%);
-  color: hsl(33deg, 100%, 98%);
+  color: hsl(0deg, 0%, 100%);
   padding: 4px;
   width: 41px;
   font-size: 0.5em;

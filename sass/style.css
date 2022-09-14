@@ -28,7 +28,7 @@ body {
   padding: 24px 20px;
   display: flex;
   justify-content: space-between;
-  color: white;
+  color: black;
   margin-bottom: 16px;
 }
 .balance__title {

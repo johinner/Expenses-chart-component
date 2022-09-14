@@ -21,6 +21,7 @@
     &__title{
         font-size: 0.7rem;
         margin-bottom: 6px;
+        font-weight: lighter;
     }
     &__total{
         font-weight: 700;
@@ -56,7 +57,7 @@
         font-size: 1.25em;
         margin-bottom: 10px;
     }
-    &__bars--container{
+    &__bars-container{
         height: 220px;
         display: flex;
         justify-content: space-between;
@@ -70,7 +71,7 @@
         height: 200px;
         border-radius: 4px;
         position: relative;
-        &--label{
+        &-label{
             background-color: variable.$Dark-brown;
             color: variable.$Very-pale-orange;
             padding: 4px;
@@ -83,7 +84,7 @@
             left: -4px;
             display: none;
         }
-        &--day{
+        &-day{
             position: absolute;
             bottom: -16px;
             font-size: 0.6em;
@@ -94,7 +95,7 @@
             cursor: pointer;
             filter: brightness(1.2);
         }
-        &:hover .chart__bar--label{
+        &:hover .chart__bar-label{
             display: block;
         }
     }

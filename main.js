@@ -1,6 +1,6 @@
 import data from './data.json' assert{type: 'json'};
 
-const chartBarConteiner = document.querySelector('.chart__bars--container');
+const chartBarConteiner = document.querySelector('.chart__bars-container');
 const chartTotal = document.getElementById('chart__total');
 
 let valorMayor = 0;
@@ -18,14 +18,14 @@ let totalAmout = 0;
 data.forEach(Element => {
     let height =  (Element.amount * maximoPixel) / valorMayor;
     chartBarConteiner.innerHTML += `<div style="height: ${height}px ;" class="chart__bar" >
-    <div class="chart__bar--label">$<span>${Element.amount}</span></div>
-    <div class="chart__bar--day">${Element.day}</div>
+    <div class="chart__bar-label">$<span>${Element.amount}</span></div>
+    <div class="chart__bar-day">${Element.day}</div>
   </div>`
   totalAmout += Element.amount
 });
 chartTotal.textContent = totalAmout;
 
-let bars = document.querySelectorAll('.chart__bar .chart__bar--label span');
+let bars = document.querySelectorAll('.chart__bar .chart__bar-label span');
 bars = [...bars];
 
 

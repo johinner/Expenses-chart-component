@@ -34,6 +34,7 @@ body {
 .balance__title {
   font-size: 0.7rem;
   margin-bottom: 6px;
+  font-weight: lighter;
 }
 .balance__total {
   font-weight: 700;
@@ -70,7 +71,7 @@ body {
   font-size: 1.25em;
   margin-bottom: 10px;
 }
-.chart__bars--container {
+.chart__bars-container {
   height: 220px;
   display: flex;
   justify-content: space-between;
@@ -84,7 +85,7 @@ body {
   border-radius: 4px;
   position: relative;
 }
-.chart__bar--label {
+.chart__bar-label {
   background-color: hsl(25deg, 47%, 15%);
   color: hsl(33deg, 100%, 98%);
   padding: 4px;
@@ -97,7 +98,7 @@ body {
   left: -4px;
   display: none;
 }
-.chart__bar--day {
+.chart__bar-day {
   position: absolute;
   bottom: -16px;
   font-size: 0.6em;
@@ -108,7 +109,7 @@ body {
   cursor: pointer;
   filter: brightness(1.2);
 }
-.chart__bar:hover .chart__bar--label {
+.chart__bar:hover .chart__bar-label {
   display: block;
 }
 .chart__analitics {

@@ -28,7 +28,7 @@ body {
   padding: 24px 20px;
   display: flex;
   justify-content: space-between;
-  color: hsl(33deg, 100%, 98%);
+  color: white;
   margin-bottom: 16px;
 }
 .balance__title {
@@ -61,7 +61,7 @@ body {
 
 .chart {
   background-color: hsl(33deg, 100%, 98%);
-  color: hsl(28deg, 10%, 53%);
+  color: black;
   border-radius: 16px;
   height: 426px;
   padding: 28px 20px;
